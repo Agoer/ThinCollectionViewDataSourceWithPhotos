@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C430CD0A1C15326800957DA3 /* PhotoAlbumsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C430CD091C15326800957DA3 /* PhotoAlbumsTableViewCell.m */; };
+		C430CD0D1C15352F00957DA3 /* PhotoAlbumsTableViewCell+ConfigureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C430CD0C1C15352F00957DA3 /* PhotoAlbumsTableViewCell+ConfigureCell.m */; };
+		C430CD151C1575BE00957DA3 /* AtPhotoAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = C430CD101C1575BE00957DA3 /* AtPhotoAssets.m */; };
+		C430CD161C1575BE00957DA3 /* AtPhotoPickerDataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C430CD121C1575BE00957DA3 /* AtPhotoPickerDataCenter.m */; };
+		C430CD171C1575BE00957DA3 /* AtPhotoPickerGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = C430CD141C1575BE00957DA3 /* AtPhotoPickerGroup.m */; };
+		C43A47041C118FBE00B80D81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C43A47031C118FBE00B80D81 /* main.m */; };
+		C43A47071C118FBE00B80D81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C43A47061C118FBE00B80D81 /* AppDelegate.m */; };
+		C43A470A1C118FBE00B80D81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C43A47091C118FBE00B80D81 /* ViewController.m */; };
+		C43A470D1C118FBE00B80D81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C43A470B1C118FBE00B80D81 /* Main.storyboard */; };
+		C43A470F1C118FBE00B80D81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C43A470E1C118FBE00B80D81 /* Assets.xcassets */; };
+		C43A47121C118FBE00B80D81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C43A47101C118FBE00B80D81 /* LaunchScreen.storyboard */; };
+		C43A471D1C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C43A471C1C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotosTests.m */; };
+		C43A47281C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C43A47271C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotosUITests.m */; };
+		C43A47371C118FF500B80D81 /* PhotoAlbumsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C43A47361C118FF500B80D81 /* PhotoAlbumsTableViewController.m */; };
+		C43A473A1C11911F00B80D81 /* PhotoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C43A47391C11911F00B80D81 /* PhotoCollectionViewController.m */; };
+		C43A47401C1191AB00B80D81 /* PhotoImageAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = C43A473F1C1191AB00B80D81 /* PhotoImageAsset.m */; };
+		C43A47431C1191C000B80D81 /* PhotoImagesGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = C43A47421C1191C000B80D81 /* PhotoImagesGroup.m */; };
+		C43A47461C11930D00B80D81 /* PhotoImagesDataManagerCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C43A47451C11930D00B80D81 /* PhotoImagesDataManagerCenter.m */; };
+		C43A474A1C11A30C00B80D81 /* PhotoAlbumsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C43A47491C11A30C00B80D81 /* PhotoAlbumsDataSource.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C43A47191C118FBE00B80D81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C43A46F71C118FBE00B80D81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C43A46FE1C118FBE00B80D81;
+			remoteInfo = ThinCollectionViewDataSourceWithPhotos;
+		};
+		C43A47241C118FBE00B80D81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C43A46F71C118FBE00B80D81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C43A46FE1C118FBE00B80D81;
+			remoteInfo = ThinCollectionViewDataSourceWithPhotos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C430CD081C15326800957DA3 /* PhotoAlbumsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoAlbumsTableViewCell.h; sourceTree = "<group>"; };
+		C430CD091C15326800957DA3 /* PhotoAlbumsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoAlbumsTableViewCell.m; sourceTree = "<group>"; };
+		C430CD0B1C15352F00957DA3 /* PhotoAlbumsTableViewCell+ConfigureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PhotoAlbumsTableViewCell+ConfigureCell.h"; sourceTree = "<group>"; };
+		C430CD0C1C15352F00957DA3 /* PhotoAlbumsTableViewCell+ConfigureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PhotoAlbumsTableViewCell+ConfigureCell.m"; sourceTree = "<group>"; };
+		C430CD0F1C1575BE00957DA3 /* AtPhotoAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtPhotoAssets.h; sourceTree = "<group>"; };
+		C430CD101C1575BE00957DA3 /* AtPhotoAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtPhotoAssets.m; sourceTree = "<group>"; };
+		C430CD111C1575BE00957DA3 /* AtPhotoPickerDataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtPhotoPickerDataCenter.h; sourceTree = "<group>"; };
+		C430CD121C1575BE00957DA3 /* AtPhotoPickerDataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtPhotoPickerDataCenter.m; sourceTree = "<group>"; };
+		C430CD131C1575BE00957DA3 /* AtPhotoPickerGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtPhotoPickerGroup.h; sourceTree = "<group>"; };
+		C430CD141C1575BE00957DA3 /* AtPhotoPickerGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtPhotoPickerGroup.m; sourceTree = "<group>"; };
+		C43A46FF1C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinCollectionViewDataSourceWithPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C43A47031C118FBE00B80D81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C43A47051C118FBE00B80D81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C43A47061C118FBE00B80D81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C43A47081C118FBE00B80D81 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C43A47091C118FBE00B80D81 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C43A470C1C118FBE00B80D81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C43A470E1C118FBE00B80D81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C43A47111C118FBE00B80D81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C43A47131C118FBE00B80D81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C43A47181C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThinCollectionViewDataSourceWithPhotosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C43A471C1C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThinCollectionViewDataSourceWithPhotosTests.m; sourceTree = "<group>"; };
+		C43A471E1C118FBE00B80D81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C43A47231C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThinCollectionViewDataSourceWithPhotosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C43A47271C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThinCollectionViewDataSourceWithPhotosUITests.m; sourceTree = "<group>"; };
+		C43A47291C118FBE00B80D81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C43A47351C118FF500B80D81 /* PhotoAlbumsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoAlbumsTableViewController.h; sourceTree = "<group>"; };
+		C43A47361C118FF500B80D81 /* PhotoAlbumsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoAlbumsTableViewController.m; sourceTree = "<group>"; };
+		C43A47381C11911F00B80D81 /* PhotoCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewController.h; sourceTree = "<group>"; };
+		C43A47391C11911F00B80D81 /* PhotoCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewController.m; sourceTree = "<group>"; };
+		C43A473E1C1191AB00B80D81 /* PhotoImageAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoImageAsset.h; sourceTree = "<group>"; };
+		C43A473F1C1191AB00B80D81 /* PhotoImageAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoImageAsset.m; sourceTree = "<group>"; };
+		C43A47411C1191C000B80D81 /* PhotoImagesGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoImagesGroup.h; sourceTree = "<group>"; };
+		C43A47421C1191C000B80D81 /* PhotoImagesGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoImagesGroup.m; sourceTree = "<group>"; };
+		C43A47441C11930D00B80D81 /* PhotoImagesDataManagerCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoImagesDataManagerCenter.h; sourceTree = "<group>"; };
+		C43A47451C11930D00B80D81 /* PhotoImagesDataManagerCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoImagesDataManagerCenter.m; sourceTree = "<group>"; };
+		C43A47481C11A30C00B80D81 /* PhotoAlbumsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoAlbumsDataSource.h; sourceTree = "<group>"; };
+		C43A47491C11A30C00B80D81 /* PhotoAlbumsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoAlbumsDataSource.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C43A46FC1C118FBE00B80D81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43A47151C118FBE00B80D81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43A47201C118FBE00B80D81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C430CD0E1C1575BE00957DA3 /* MidAction */ = {
+			isa = PBXGroup;
+			children = (
+				C430CD0F1C1575BE00957DA3 /* AtPhotoAssets.h */,
+				C430CD101C1575BE00957DA3 /* AtPhotoAssets.m */,
+				C430CD111C1575BE00957DA3 /* AtPhotoPickerDataCenter.h */,
+				C430CD121C1575BE00957DA3 /* AtPhotoPickerDataCenter.m */,
+				C430CD131C1575BE00957DA3 /* AtPhotoPickerGroup.h */,
+				C430CD141C1575BE00957DA3 /* AtPhotoPickerGroup.m */,
+			);
+			path = MidAction;
+			sourceTree = "<group>";
+		};
+		C43A46F61C118FBE00B80D81 = {
+			isa = PBXGroup;
+			children = (
+				C43A47011C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotos */,
+				C43A471B1C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotosTests */,
+				C43A47261C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotosUITests */,
+				C43A47001C118FBE00B80D81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C43A47001C118FBE00B80D81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C43A46FF1C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotos.app */,
+				C43A47181C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotosTests.xctest */,
+				C43A47231C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C43A47011C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				C43A473B1C11913A00B80D81 /* Views */,
+				C43A473C1C11913A00B80D81 /* Model */,
+				C43A47051C118FBE00B80D81 /* AppDelegate.h */,
+				C43A47061C118FBE00B80D81 /* AppDelegate.m */,
+				C43A47351C118FF500B80D81 /* PhotoAlbumsTableViewController.h */,
+				C43A47361C118FF500B80D81 /* PhotoAlbumsTableViewController.m */,
+				C43A47381C11911F00B80D81 /* PhotoCollectionViewController.h */,
+				C43A47391C11911F00B80D81 /* PhotoCollectionViewController.m */,
+				C43A47081C118FBE00B80D81 /* ViewController.h */,
+				C43A47091C118FBE00B80D81 /* ViewController.m */,
+				C43A470B1C118FBE00B80D81 /* Main.storyboard */,
+				C43A470E1C118FBE00B80D81 /* Assets.xcassets */,
+				C43A47101C118FBE00B80D81 /* LaunchScreen.storyboard */,
+				C43A47131C118FBE00B80D81 /* Info.plist */,
+				C43A47021C118FBE00B80D81 /* Supporting Files */,
+			);
+			path = ThinCollectionViewDataSourceWithPhotos;
+			sourceTree = "<group>";
+		};
+		C43A47021C118FBE00B80D81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C43A47031C118FBE00B80D81 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C43A471B1C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotosTests */ = {
+			isa = PBXGroup;
+			children = (
+				C43A471C1C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotosTests.m */,
+				C43A471E1C118FBE00B80D81 /* Info.plist */,
+			);
+			path = ThinCollectionViewDataSourceWithPhotosTests;
+			sourceTree = "<group>";
+		};
+		C43A47261C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C43A47271C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotosUITests.m */,
+				C43A47291C118FBE00B80D81 /* Info.plist */,
+			);
+			path = ThinCollectionViewDataSourceWithPhotosUITests;
+			sourceTree = "<group>";
+		};
+		C43A473B1C11913A00B80D81 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C430CD081C15326800957DA3 /* PhotoAlbumsTableViewCell.h */,
+				C430CD091C15326800957DA3 /* PhotoAlbumsTableViewCell.m */,
+				C430CD0B1C15352F00957DA3 /* PhotoAlbumsTableViewCell+ConfigureCell.h */,
+				C430CD0C1C15352F00957DA3 /* PhotoAlbumsTableViewCell+ConfigureCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C43A473C1C11913A00B80D81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C430CD0E1C1575BE00957DA3 /* MidAction */,
+				C43A47471C11A2E300B80D81 /* DataSourceModels */,
+				C43A473D1C11918400B80D81 /* PhotoModels */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C43A473D1C11918400B80D81 /* PhotoModels */ = {
+			isa = PBXGroup;
+			children = (
+				C43A473E1C1191AB00B80D81 /* PhotoImageAsset.h */,
+				C43A473F1C1191AB00B80D81 /* PhotoImageAsset.m */,
+				C43A47411C1191C000B80D81 /* PhotoImagesGroup.h */,
+				C43A47421C1191C000B80D81 /* PhotoImagesGroup.m */,
+				C43A47441C11930D00B80D81 /* PhotoImagesDataManagerCenter.h */,
+				C43A47451C11930D00B80D81 /* PhotoImagesDataManagerCenter.m */,
+			);
+			path = PhotoModels;
+			sourceTree = "<group>";
+		};
+		C43A47471C11A2E300B80D81 /* DataSourceModels */ = {
+			isa = PBXGroup;
+			children = (
+				C43A47481C11A30C00B80D81 /* PhotoAlbumsDataSource.h */,
+				C43A47491C11A30C00B80D81 /* PhotoAlbumsDataSource.m */,
+			);
+			path = DataSourceModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C43A46FE1C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43A472C1C118FBE00B80D81 /* Build configuration list for PBXNativeTarget "ThinCollectionViewDataSourceWithPhotos" */;
+			buildPhases = (
+				C43A46FB1C118FBE00B80D81 /* Sources */,
+				C43A46FC1C118FBE00B80D81 /* Frameworks */,
+				C43A46FD1C118FBE00B80D81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThinCollectionViewDataSourceWithPhotos;
+			productName = ThinCollectionViewDataSourceWithPhotos;
+			productReference = C43A46FF1C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C43A47171C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43A472F1C118FBE00B80D81 /* Build configuration list for PBXNativeTarget "ThinCollectionViewDataSourceWithPhotosTests" */;
+			buildPhases = (
+				C43A47141C118FBE00B80D81 /* Sources */,
+				C43A47151C118FBE00B80D81 /* Frameworks */,
+				C43A47161C118FBE00B80D81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C43A471A1C118FBE00B80D81 /* PBXTargetDependency */,
+			);
+			name = ThinCollectionViewDataSourceWithPhotosTests;
+			productName = ThinCollectionViewDataSourceWithPhotosTests;
+			productReference = C43A47181C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C43A47221C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43A47321C118FBE00B80D81 /* Build configuration list for PBXNativeTarget "ThinCollectionViewDataSourceWithPhotosUITests" */;
+			buildPhases = (
+				C43A471F1C118FBE00B80D81 /* Sources */,
+				C43A47201C118FBE00B80D81 /* Frameworks */,
+				C43A47211C118FBE00B80D81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C43A47251C118FBE00B80D81 /* PBXTargetDependency */,
+			);
+			name = ThinCollectionViewDataSourceWithPhotosUITests;
+			productName = ThinCollectionViewDataSourceWithPhotosUITests;
+			productReference = C43A47231C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C43A46F71C118FBE00B80D81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "aotumanlady Inc";
+				TargetAttributes = {
+					C43A46FE1C118FBE00B80D81 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = G6MAA3J7G8;
+					};
+					C43A47171C118FBE00B80D81 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C43A46FE1C118FBE00B80D81;
+					};
+					C43A47221C118FBE00B80D81 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C43A46FE1C118FBE00B80D81;
+					};
+				};
+			};
+			buildConfigurationList = C43A46FA1C118FBE00B80D81 /* Build configuration list for PBXProject "ThinCollectionViewDataSourceWithPhotos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C43A46F61C118FBE00B80D81;
+			productRefGroup = C43A47001C118FBE00B80D81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C43A46FE1C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotos */,
+				C43A47171C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotosTests */,
+				C43A47221C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C43A46FD1C118FBE00B80D81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43A47121C118FBE00B80D81 /* LaunchScreen.storyboard in Resources */,
+				C43A470F1C118FBE00B80D81 /* Assets.xcassets in Resources */,
+				C43A470D1C118FBE00B80D81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43A47161C118FBE00B80D81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43A47211C118FBE00B80D81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C43A46FB1C118FBE00B80D81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43A47371C118FF500B80D81 /* PhotoAlbumsTableViewController.m in Sources */,
+				C43A470A1C118FBE00B80D81 /* ViewController.m in Sources */,
+				C430CD0A1C15326800957DA3 /* PhotoAlbumsTableViewCell.m in Sources */,
+				C43A473A1C11911F00B80D81 /* PhotoCollectionViewController.m in Sources */,
+				C430CD151C1575BE00957DA3 /* AtPhotoAssets.m in Sources */,
+				C430CD161C1575BE00957DA3 /* AtPhotoPickerDataCenter.m in Sources */,
+				C430CD0D1C15352F00957DA3 /* PhotoAlbumsTableViewCell+ConfigureCell.m in Sources */,
+				C43A47401C1191AB00B80D81 /* PhotoImageAsset.m in Sources */,
+				C43A47071C118FBE00B80D81 /* AppDelegate.m in Sources */,
+				C430CD171C1575BE00957DA3 /* AtPhotoPickerGroup.m in Sources */,
+				C43A47041C118FBE00B80D81 /* main.m in Sources */,
+				C43A47431C1191C000B80D81 /* PhotoImagesGroup.m in Sources */,
+				C43A47461C11930D00B80D81 /* PhotoImagesDataManagerCenter.m in Sources */,
+				C43A474A1C11A30C00B80D81 /* PhotoAlbumsDataSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43A47141C118FBE00B80D81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43A471D1C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43A471F1C118FBE00B80D81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43A47281C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotosUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C43A471A1C118FBE00B80D81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C43A46FE1C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotos */;
+			targetProxy = C43A47191C118FBE00B80D81 /* PBXContainerItemProxy */;
+		};
+		C43A47251C118FBE00B80D81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C43A46FE1C118FBE00B80D81 /* ThinCollectionViewDataSourceWithPhotos */;
+			targetProxy = C43A47241C118FBE00B80D81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C43A470B1C118FBE00B80D81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C43A470C1C118FBE00B80D81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C43A47101C118FBE00B80D81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C43A47111C118FBE00B80D81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C43A472A1C118FBE00B80D81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C43A472B1C118FBE00B80D81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C43A472D1C118FBE00B80D81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ThinCollectionViewDataSourceWithPhotos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aotumanlady.ThinCollectionViewDataSourceWithPhotos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C43A472E1C118FBE00B80D81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ThinCollectionViewDataSourceWithPhotos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aotumanlady.ThinCollectionViewDataSourceWithPhotos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C43A47301C118FBE00B80D81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ThinCollectionViewDataSourceWithPhotosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aotumanlady.ThinCollectionViewDataSourceWithPhotosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThinCollectionViewDataSourceWithPhotos.app/ThinCollectionViewDataSourceWithPhotos";
+			};
+			name = Debug;
+		};
+		C43A47311C118FBE00B80D81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ThinCollectionViewDataSourceWithPhotosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aotumanlady.ThinCollectionViewDataSourceWithPhotosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThinCollectionViewDataSourceWithPhotos.app/ThinCollectionViewDataSourceWithPhotos";
+			};
+			name = Release;
+		};
+		C43A47331C118FBE00B80D81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ThinCollectionViewDataSourceWithPhotosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aotumanlady.ThinCollectionViewDataSourceWithPhotosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ThinCollectionViewDataSourceWithPhotos;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C43A47341C118FBE00B80D81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ThinCollectionViewDataSourceWithPhotosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aotumanlady.ThinCollectionViewDataSourceWithPhotosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ThinCollectionViewDataSourceWithPhotos;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C43A46FA1C118FBE00B80D81 /* Build configuration list for PBXProject "ThinCollectionViewDataSourceWithPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C43A472A1C118FBE00B80D81 /* Debug */,
+				C43A472B1C118FBE00B80D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43A472C1C118FBE00B80D81 /* Build configuration list for PBXNativeTarget "ThinCollectionViewDataSourceWithPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C43A472D1C118FBE00B80D81 /* Debug */,
+				C43A472E1C118FBE00B80D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43A472F1C118FBE00B80D81 /* Build configuration list for PBXNativeTarget "ThinCollectionViewDataSourceWithPhotosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C43A47301C118FBE00B80D81 /* Debug */,
+				C43A47311C118FBE00B80D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43A47321C118FBE00B80D81 /* Build configuration list for PBXNativeTarget "ThinCollectionViewDataSourceWithPhotosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C43A47331C118FBE00B80D81 /* Debug */,
+				C43A47341C118FBE00B80D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C43A46F71C118FBE00B80D81 /* Project object */;
+}

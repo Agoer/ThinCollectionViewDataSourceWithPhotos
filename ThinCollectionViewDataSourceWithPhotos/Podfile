@@ -1,0 +1,10 @@
+platform :ios, "7.0"
+inhibit_all_warnings!
+
+pod 'YYKit'
+pod 'Masonry',                 '~> 0.6.0'
+
+
+target :ThinCollectionViewDataSourceWithPhotosTests, :exclusive => true do
+  # pod 'Kiwi'
+end
